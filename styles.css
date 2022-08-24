@@ -114,6 +114,9 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
+border-radius: 4px;
+padding: 10px 32px;
+min-width: 216px;
 }
 
 .btn-hero-active:active {
@@ -227,6 +230,14 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
 text-align: center;
+border-radius: 4px;
+padding: 6px 22px;
+display: inline-block;
+min-width: 73px;
+}
+
+.btn-all {
+padding: 6px 25px;
 }
 
 .btn-filter:hover,
@@ -252,8 +263,11 @@ line-height: 1.88;
 color: var(--secondary-color);
 }
 
-/*  
-.works .link:hover {
-color: var(--link-active);
-}*/
+.container {
+    width: 1200;
+    background-color: tomato;
+}
 
+.section {
+    padding: 94px 0;
+}
