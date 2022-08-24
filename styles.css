@@ -100,33 +100,11 @@ text-decoration: none;
 color: var(--link-active);
 }
 
-/* Кнопки */
-.btn-hero {
-border: none;
-cursor: pointer;
-font-family: inherit;
-background-color: var(--button-color-hero);
-color: var(--hero-color);
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-border-radius: 4px;
-padding: 10px 32px;
-min-width: 216px;
-}
-
-.btn-hero-active:active {
-background-color: var(--button-color-active);
-}
-
 /* Hero */
 
 .hero {
 background-color: var(--secondary-bkgcolor);
+text-align: center;
 }
 
 .main-title {
@@ -138,7 +116,6 @@ text-transform: uppercase;
 color: var(--hero-color);
 margin-top: 0;
 margin-bottom: 30px;
-background-color: aqua;
 }
 
 .subtitle {
@@ -151,9 +128,27 @@ margin-top: 0;
 margin-bottom: 10px;
 }
 
-.hero {
-text-align: center;
+.btn-hero {
+border: none;
+cursor: pointer;
+font-family: inherit;
+background-color: var(--button-color-hero);
+color: var(--hero-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+border-radius: 4px;
+padding: 10px 32px;
+min-width: 216px;
 }
+
+.btn-hero-active:active {
+background-color: var(--button-color-active);
+}
+
 /* Features */
 
 .features {
@@ -273,27 +268,17 @@ color: var(--secondary-color);
 }
 
 .container {
-    width: 1200;
-    background-color: tomato;
+width: 1200;
 }
 
 .section {
-    padding: 94px 0;
+padding: 94px 0;
 }
 
 .list {
     padding: 0;
     margin: 0;
     
-}
-
-h1 {
-    padding: 0;
-    margin: 0;
-}
-
-.features {
-    background-color: seagreen;
 }
 
 h1,
@@ -303,4 +288,5 @@ p,
 ul {
     margin-top: 0;
     margin-bottom: 0;
+    padding: 0;
 }
