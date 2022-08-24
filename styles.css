@@ -1,0 +1,259 @@
+/* Основной цвет фона F5F5F5 */
+/* Вторичный цвет фона 2F303A */
+/* Основной цвет текста 212121 */
+/* вторичный цвет текста 757575 */
+/* доп.цвета лого,хедер голубой:2196F3, черный:000000 */
+/* цвет кнопок 2196F3 */
+/* цвет кнопок портфолио неакт F5F4FA */
+
+:root {
+    /* Fonts */
+
+    --main-font: roboto, sans-serif;
+    --logo-font: raleway, sans-serif;
+
+    /* Text colors */
+
+    --primary-color: #212121;
+    --secondary-color: #757575;
+    --hero-color: #FFFFFF;
+
+    /* Background colors */
+
+    --primary-bkgcolor: #F5F5F5;
+    --secondary-bkgcolor: #2F303A;
+    --body-bgk: #F5F5F5;
+
+    /* Others */
+
+    --button-color-hero: #2196F3;
+    --button-color: #F5F4FA;
+    --link-active: #2196F3;
+    --light-bgk: #F5F4FA;
+    --button-color-active: #188CE8;
+    --logo-header: #000000;
+    --contacts-footer: rgba(255, 255, 255, 0.6);
+}
+
+.page {
+color: var(--primary-color);
+background-color: var(--body-bgk);
+font-family: var(--main-font);
+font-size: 14px;
+letter-spacing: 0.03em;
+}
+
+/* header */
+
+.header-group {
+color: var(--secondary-color);
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.logo {
+font-family: var(--logo-font);
+color: var(--link-active);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+}
+
+.site-logo {
+color: var(--logo-header);
+}
+
+.list-nav {
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.link-nav {
+text-decoration: none;
+color: var(--primary-color);
+}
+
+/* Общие для ссылок */
+.link:hover,
+.link:focus {
+color: var(--link-active);
+}
+
+.list, .list-item,
+.link-item, .work-list {
+list-style:none
+}
+
+.link,
+.work-link {
+text-decoration: none;
+}
+
+.link-contact {
+color: var(--secondary-color);
+text-decoration: none;
+}
+
+.active {
+color: var(--link-active);
+}
+
+/* Кнопки */
+.btn-hero {
+border: none;
+cursor: pointer;
+font-family: inherit;
+background-color: var(--button-color-hero);
+color: var(--hero-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
+
+.btn-hero-active:active {
+background-color: var(--button-color-active);
+}
+
+/* Hero */
+
+.hero {
+background-color: var(--secondary-bkgcolor);
+}
+
+.main-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-align: center;
+text-transform: uppercase;
+color: var(--hero-color);
+}
+
+.subtitle {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+/* Features */
+
+.features {
+background-color: var(--primary-bkgcolor);
+}
+
+.features p {
+color: var(--secondary-color);
+font-weight: 400;
+line-height: 1.71;
+}
+
+/* Services */
+
+.services {
+background-color: var(--primary-bkgcolor);
+}
+
+.section-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+}
+
+/* Team */
+
+.team-list {
+background-color: var(--hero-color);
+}
+
+.team {
+background-color: var(--light-bgk);
+}
+
+.team-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+}
+
+.team-position {
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+line-height: 1.19;
+color: var(--secondary-color);
+}
+
+/* Footer */
+
+.footer {
+background-color: var(--secondary-bkgcolor);
+}
+
+.address-list,
+.contacts {
+color: var(--hero-color);
+font-style: normal;
+font-weight: 400;
+line-height: 1.71;
+}
+
+.accent {
+color: var(--hero-color);
+}
+
+.contacts-list a {
+color:var(--contacts-footer)
+}
+
+/* Portfolio Buttons */
+
+.btn-filter {
+border: none;
+background-color: var(--button-color);
+color: var(--primary-color);
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+background-color: var(--link-active);
+color: var(--hero-color);
+}
+
+/* Portfolio Projects */
+
+.project-name {
+color: var(--primary-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.work-type {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+color: var(--secondary-color);
+}
+
+/*  
+.works .link:hover {
+color: var(--link-active);
+}*/
+
