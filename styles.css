@@ -134,9 +134,11 @@ font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
-text-align: center;
 text-transform: uppercase;
 color: var(--hero-color);
+margin-top: 0;
+margin-bottom: 30px;
+background-color: aqua;
 }
 
 .subtitle {
@@ -145,8 +147,13 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-top: 0;
+margin-bottom: 10px;
 }
 
+.hero {
+text-align: center;
+}
 /* Features */
 
 .features {
@@ -170,6 +177,8 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
+margin-bottom: 0;
+margin-top: 0;
 }
 
 /* Team */
@@ -270,4 +279,28 @@ color: var(--secondary-color);
 
 .section {
     padding: 94px 0;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.features {
+    background-color: seagreen;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
 }
