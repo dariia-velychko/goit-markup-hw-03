@@ -20,7 +20,7 @@
 
     /* Background colors */
 
-    --primary-bkgcolor: #F5F5F5;
+    --primary-bkgcolor: #FFFFFF;
     --secondary-bkgcolor: #2F303A;
     --body-bgk: #F5F5F5;
 
@@ -36,7 +36,7 @@
 }
 
 .page {
-color: var(--primary-color);
+color: var(--primary-bkgcolo);
 background-color: var(--body-bgk);
 font-family: var(--main-font);
 font-size: 14px;
@@ -315,7 +315,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
-padding-bottom: 10px;
+margin-bottom: 10px;
 }
 
 .team-position {
@@ -349,6 +349,7 @@ color: var(--hero-color);
 
 .logo-footer {
 display: block;
+padding: 0;
 margin-bottom: 20px;
 }
 
@@ -356,10 +357,14 @@ margin-bottom: 20px;
 color:var(--contacts-footer)
 }
 
-.mail {
-margin-top: 9px;
+.address-footer {
 margin-bottom: 9px;
 }
+
+.contact-mail {
+margin-bottom: 9px;
+}
+
 
 /* Portfolio Buttons */
 .filters {
